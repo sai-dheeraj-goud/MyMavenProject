@@ -26,7 +26,6 @@ public class LoginPage {
 		PageFactory.initElements(driver, this);
 		this.driver=driver;
 	}
-
 	
 	public void enterUserName(String user)
 	{                             // admin
@@ -41,14 +40,12 @@ public class LoginPage {
 	}
 	
 	public void clickRegistrationDesk()
-	{
-		
+	{	
 		Registration_Desk_Option.click();
 	}
 	public void clickLoginBtn()
 	{
 		System.out.println("Click Login button");
 		login_Btn.click();
-	}
-	
+	}	
 }
